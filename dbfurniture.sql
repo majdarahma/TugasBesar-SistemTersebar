@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 4.9.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 24 Jun 2020 pada 21.32
--- Versi server: 10.3.16-MariaDB
--- Versi PHP: 7.3.7
+-- Waktu pembuatan: 08 Jul 2020 pada 09.38
+-- Versi server: 10.4.11-MariaDB
+-- Versi PHP: 7.4.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -83,7 +83,10 @@ INSERT INTO `tbl_pembelian` (`id_pembelian`, `id_pelanggan`, `total_pembelian`, 
 (2, 2, 725000, 0),
 (3, 2, 725000, 0),
 (4, 2, 740000, 0),
-(5, 3, 810000, 0);
+(5, 3, 810000, 0),
+(6, 4, 300000, 0),
+(7, 4, 300000, 0),
+(8, 4, 300000, 0);
 
 -- --------------------------------------------------------
 
@@ -125,8 +128,7 @@ INSERT INTO `tbl_produk` (`id_produk`, `nama_produk`, `harga_produk`, `foto_prod
 (12, 'Rak Buku', 70000, 'rakbuku.jpg'),
 (13, 'Rak Piring', 100000, 'rakpiring.jpg'),
 (14, 'Rak Sepatu', 100000, 'raksepatu.jpg'),
-(15, 'Sofa', 500000, 'sofa.jpg'),
-(23, 'ujang deredet headsot 3', 300000, '');
+(15, 'Sofa', 500000, 'sofa.jpg');
 
 -- --------------------------------------------------------
 
@@ -209,7 +211,7 @@ ALTER TABLE `tbl_ongkir`
 -- AUTO_INCREMENT untuk tabel `tbl_pembelian`
 --
 ALTER TABLE `tbl_pembelian`
-  MODIFY `id_pembelian` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_pembelian` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT untuk tabel `tbl_pembelianproduk`
