@@ -22,7 +22,7 @@
   "dependencies": {
     "@types/express": "^4.17.2",
     "deprecate": "1.0.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "q": "2.0.x",
